@@ -1,0 +1,17 @@
+#write a program that asks the user for the details of a profile card, including name, age, and city.and marks in three subject ,Then, print the profile card in a formatted manner.
+name = input("Enter your Name:")
+age = int(input("Enter your Age:"))
+city = input("Enter ur city:")
+subject1 = float(input("Enter marks for Subject 1: "))
+subject2 = float(input("Enter marks for Subject 2: "))
+subject3 = float(input("Enter marks for Subject 3: "))
+
+print("\n profile Card:")
+print(f"Name:{name}")
+print(f"Age:{age}")
+print(f"City:{city}")
+print(f"Subject 1: {subject1}")
+print(f"Subject 2: {subject2}")
+print(f"Subject 3: {subject3}")
+print(f"Total marks: {subject1 + subject2 + subject3}")
+print(f"Percentage: {(subject1 + subject2 + subject3) / 3}%")
