@@ -15,3 +15,5 @@ print(f"Subject 2: {subject2}")
 print(f"Subject 3: {subject3}")
 print(f"Total marks: {subject1 + subject2 + subject3}")
 print(f"Percentage: {(subject1 + subject2 + subject3) / 3}%")
+
+
